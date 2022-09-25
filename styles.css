@@ -1,0 +1,74 @@
+*{
+  font-family: 'Source Code Pro', monospace;
+}
+
+@font-face {
+  font-family: 'Source Code Pro';
+  font-style: normal, italic;
+  font-weight: 400, 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/sourcecodepro/v22/HI_diYsKILxRpg3hIP6sJ7fM7PqPMcMnZFqUwX28DMyQtMlrTA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+h1 {
+  color: dodgerblue;
+  font-family:'Source Code Pro', monospace;
+  text-align: center;
+  font-style: italic;
+}
+table {
+  border: 2px solid lightcoral;
+    width: 650px;
+    margin: 0 auto;
+    display: table;
+    border-collapse: separate;
+    /*padding-left: 200px;*/
+    /*padding-right: 200px;*/
+    box-sizing: content-box;
+    text-indent: initial;
+    white-space: normal;
+    line-height: normal;
+    font-weight: normal;
+    font-size: medium;
+    font-style: normal;
+    text-align: start;
+  /*display:table;
+  border-collapse: separate;
+  border: 2px solid lightcoral;
+  width: 750px;
+  margin: 0, 200;*/
+}
+th {
+  background-color: lightcoral;
+  border: 1px solid lightcoral;
+  font-style: italic;
+ 
+}
+.selector {
+  background-color: rgba(0,0,0,0.9);
+  color: white;
+  text-align: center;
+  
+}
+.type{
+  background-color: lavender;
+  font-family: 'Source Code Pro', monospace;
+  font-weight: 400;
+}
+strong {
+  color: salmon;
+}
+#pc {
+color: cyan;
+}
+#ct{
+  color: lightskyblue;
+}
+td {
+background-color: lavender;
+font-weight: 500;
+width: auto;
+}
+#tag{
+  color:red;
+}
